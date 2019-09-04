@@ -1,0 +1,526 @@
+@font-face {
+    font-family: Quicksand-Bold;
+    src: url("../font/Quicksand-Bold.ttf");
+}
+
+@font-face {
+    font-family: Quicksand-Light;
+    src: url("../font/Quicksand-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Quicksand-Regular;
+    src: url("../font/Quicksand-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Quicksand-Italic;
+    src: url("../font/Quicksand-Italic.ttf") format("truetype");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.MBC-banner {
+    width: 100%;
+    height: auto;
+    padding: 22px 0;
+    background: #000046;
+    background: -webkit-linear-gradient(to right, #000046, #1cb5e0);
+    background: linear-gradient(to right, #000046, #1cb5e0);
+}
+
+.container {
+    max-width: 1250px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pull-left {
+    display: flex;
+}
+
+.MBC-quochuy {
+    height: 65px;
+    width: 65px;
+}
+
+.MBC-Header-Title {
+    margin-left: 20px;
+    align-self: center;
+}
+
+.MBC-Header-Title .MBC-title {
+    /*font-size: 25px;*/
+    color: #e4f2ff;
+    margin: 0;
+}
+
+.MBC-languages {
+    top: 0;
+    position: absolute;
+    right: 15px;
+}
+
+.menutopringht {
+    display: flex;
+    width: auto;
+    float: right;
+}
+
+.text-center {
+    /* font-family: Quicksand-Bold; */
+    /* min-height: 470px; */
+    font-weight: 500;
+}
+.pagination{
+    padding-top: 20px;
+    /* padding-left: 180px; */
+    /* display: inline; */
+    display: flex;
+    justify-content: center;
+}
+
+.menutopringht label {
+    font-weight: bold;
+}
+
+.menutopringht #lable-cach {
+    font-weight: 700;
+    margin: 02.5px;
+}
+
+/*              NAV*/
+.MBC-nav {
+    background-color: #015ab4;
+    /*background: -webkit-linear-gradient(to left, #000046, #1cb5e0);*/
+    /*background: linear-gradient(to left, #000046, #1cb5e0);*/
+    border-bottom: none;
+}
+
+.MBC-nav li {
+    /*margin-bottom: 0;*/
+}
+
+.MBC-nav li:first-child {
+    display: none;
+}
+
+#menu ul {
+    list-style-type: none;
+    background: #0469c1;
+    padding: 0;
+}
+
+.MBC-nav li a {
+    color: #efefef;
+    padding: 8px 20px;
+    border: unset;
+    border-right: 1px solid #0369ce;
+    display: block;
+    margin: 0;
+    font-size: 14px;
+}
+
+.MBC-nav li a:hover {
+    text-decoration: none;
+    background-color: #0066ce;
+    color: #efefef;
+    border: unset;
+    border-radius: unset;
+    border-right: 1px solid #0369ce;
+}
+
+.MBC-nav li a:focus {
+    background-color: #0066ce;
+    color: #efefef;
+    border-radius: unset;
+}
+
+.MBC-nav li.active a {
+    color: #efefef;
+    border-top: none;
+    border-bottom: none;
+    border-radius: unset;
+    border-right-color: #0191F2;
+    border-left-color: #0191F2;
+    background-color: #56bbff;
+}
+
+.MBC-nav li.active a:hover {
+    padding: 8px 20px;
+    border-top: none;
+    border-bottom: none;
+    cursor: pointer;
+    border-top: none;
+    color: #efefef;
+    background: #439bf2
+}
+
+/*Footer */
+
+.MBC-footer {
+    margin-top: 120px;
+    margin-bottom: 0px;
+    padding: 10px 0;
+    background-color: #0469c1;
+    color: #f5f5f5;
+    font-size: 14px;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* position: absolute;   */
+}
+
+.MBC-footer-logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.MBC-footer-logo img {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.MBC-footer-text {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 11.5px;
+    margin-right: 10px;
+}
+
+MBC-footer-logo img {
+    width: 60px;
+    height: auto;
+}
+
+/*Content*/
+#ctl00_DefaultZone {
+    width: 100%;
+}
+
+#ctl00_DefaultZone {
+    margin-bottom: 50px;
+}
+
+.logo {
+    height: 120px;
+    width: auto;
+    margin: 40px 0;
+}
+
+.TitleMBC {
+    margin-bottom: 40px;
+    margin-top: 0;
+    color: #0064BA;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.tim-kiem-input {
+    margin: 0 auto;
+    height: 40px;
+}
+
+.tim-kiem {
+    margin: 0 auto;
+}
+
+.tk-input {
+    position: relative;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+
+.MBC-input-search {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+
+.MBC-button {
+    /* padding: 8px 5px; */
+    font-weight: bold;
+    color: #f5f5f5;
+    border-radius: 3px;
+    background-color: #015ab4;
+    width: 15%;
+    right: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.MBC-button:hover{
+    color: #f5f5f5;
+    background-color: #0066ce;
+    outline: none
+}
+.MBC-button:focus{
+    background-color: #0066ce;
+    color: #efefef;
+    outline: none
+}
+.MBC-button:active:focus{
+    outline: none
+}
+
+.list-mbc {
+    width: 80%;
+    height: auto;
+    /* background: aqua; */
+}
+.list-mbc2{
+    position: absolute;
+    top: -7px;
+    width: 100%;
+}
+.danh-sach-mbc {
+    width: 77%;
+    height: 105px;
+    border: 1px solid #ccc; 
+    overflow-y: scroll;
+    position: absolute;
+    background-color: white;
+    top: 4px;
+}
+
+.danh-sach-mbc ul {
+    list-style: none;
+    /* margin-top:0; */
+}
+
+.danh-sach-mbc ul li a {
+    padding: 3px 1em 3px .4em;
+    width: 100%;
+    text-align: left;
+    display: block;
+    color: #333;
+}
+
+.danh-sach-mbc ul li a:hover {
+    background:#3d96e4;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #064882;
+}
+
+.danh-sach-mbc ul li a:active {
+    background:aqua;
+}
+
+#download-mbc {
+    margin-top: 10px;
+    /* display: none; */
+}
+
+
+
+
+/*Desktop*/
+@media screen and (max-width: 1024px) {
+    .MBC-title {
+        font-size: 25px
+    }
+
+    .MBC-quochuy {
+        height: 65px;
+        width: auto;
+    }
+
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px) {
+
+    .MBC-footer-text p {
+        font-size: 11px
+    }
+
+    .MBC-footer-text {
+        max-width: 600px;
+    }
+
+    .footer-line-down {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-line-down span {
+        display: block;
+    }
+
+    .footer-line-down span:nth-child(2) {
+        display: none;
+    }
+
+}
+
+/*Iphone Plus*/
+@media screen and (max-width: 425px) {
+    .MBC-banner {
+        padding: 15px 0px;
+    }
+
+    .MBC-quochuy {
+        height: 55px;
+        width: auto;
+    }
+
+    .pull-left {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .MBC-quochuy {
+        align-self: flex-start;
+    }
+
+    .MBC-Header-Title {
+        margin-left: 0;
+        margin-top: 5px;
+        align-self: start;
+    }
+
+    .MBC-title {
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    .MBC-languages {
+        padding: 0;
+    }
+
+    /*    NAV*/
+    .MBC-nav li:first-child {
+        display: block;
+    }
+
+    .MBC-nav li:nth-child(2) {
+        display: none;
+    }
+
+    .MBC-nav li:last-child a {
+        border-right: none;
+    }
+
+    .MBC-nav li a {
+        font-size: 12px;
+    }
+
+    .MBC-nav li:first-child a {
+        font-size: 15px;
+    }
+
+    /*Footer*/
+    .MBC-footer-logo {
+        display: none;
+    }
+
+    .MBC-footer-text p {
+        font-size: 9px;
+    }
+
+    .TitleMBC {
+        font-size: 20px;
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+
+    
+}
+
+/*Iphone */
+@media screen and (max-width: 375px) {
+    .MBC-banner {
+        padding: 15px 0px;
+    }
+
+    .MBC-quochuy {
+        height: 55px;
+        width: auto;
+    }
+
+    .pull-left {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .MBC-quochuy {
+        align-self: flex-start;
+    }
+
+    .MBC-Header-Title {
+        margin-left: 0;
+        margin-top: 5px;
+        align-self: start;
+    }
+
+    .MBC-title {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .MBC-languages {
+        padding: 0;
+    }
+
+    .MBC-nav li a {
+        padding: 8px 15px;
+    }
+}
+
+/*Smart Phone*/
+@media screen and (max-width: 320px) {
+    .MBC-nav li:first-child a {
+        font-size: 14px;
+    }
+
+    .MBC-nav li a {
+        padding: 8px 10px;
+    }
+
+    .MBC-footer-text p {
+        font-size: 5px;
+    }
+
+    .MBC-footer {
+        padding: 5px 0;
+    }
+
+}
+div.detailLV1{
+    padding-top: 50px;
+}
+div.detailLV2{
+    padding-left: 100px;
+}
+.title-SubPage{
+    text-align: left;
+}
+/* .middlepage{
+    padding-top: 20px;
+} */
